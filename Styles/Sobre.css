@@ -1,0 +1,50 @@
+#background {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+
+#titulo-label {
+    -fx-font-size: 24px;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-text-transform: uppercase;
+}
+
+.descricao-label {
+    -fx-font-size: 18px;
+    -fx-text-fill: black;
+    -fx-font-weight: normal;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-font-weight: bold;
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-padding: 10px;
+}
+
+#sair-button {
+        -fx-background-color: white;
+            -fx-border-color: black;
+            -fx-border-width: 3px;
+            -fx-pref-width: 200px;
+            -fx-pref-height: 50px;
+            -fx-alignment: center;
+            -fx-font-size: 16px;
+            -fx-font-weight: bold;
+            -fx-text-fill: black;
+            -fx-background-radius: 15px;
+            -fx-border-radius: 10px;
+            -fx-effect: dropshadow(gaussian, black, 5, 0, 0, 2);
+}
+
+#sair-button: hover{
+        -fx-background-color: lightblue;
+}
+
+#footer {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+}
+
+#rodape-label {
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-text-transform: uppercase;
+}

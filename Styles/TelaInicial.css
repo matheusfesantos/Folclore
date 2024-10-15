@@ -1,0 +1,52 @@
+#background {
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+}
+
+#titulo-label {
+    -fx-font-size: 24px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-border-color: black;
+    -fx-border-width: 3px;
+    -fx-border-radius: 0px;
+    -fx-padding: 8px;
+    -fx-text-transform: uppercase;
+    -fx-pref-width: 350px;
+    -fx-alignment: center;
+}
+
+#iniciar-button, #sobre-button {
+    -fx-background-color: white;
+        -fx-border-color: black;
+        -fx-border-width: 3px;
+        -fx-pref-width: 200px;
+        -fx-pref-height: 50px;
+        -fx-alignment: center;
+        -fx-font-size: 16px;
+        -fx-font-weight: bold;
+        -fx-text-fill: black;
+        -fx-background-radius: 15px;
+        -fx-border-radius: 10px;
+        -fx-effect: dropshadow(gaussian, black, 5, 0, 0, 2);
+}
+
+#iniciar-button: hover{
+    -fx-background-color: lightblue;
+}
+
+#sobre-button: hover{
+    -fx-background-color: lightblue;
+}
+
+#footer {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+}
+
+#rodape-label {
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-text-transform: uppercase;
+}
