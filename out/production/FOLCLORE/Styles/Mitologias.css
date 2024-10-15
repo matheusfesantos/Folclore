@@ -1,0 +1,71 @@
+#titulo-label{
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+#curupira-image, #saci-image, #boitata-image {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-background-radius: 20px;
+    -fx-border-color: black;
+    -fx-border-width: 3px;
+    -fx-border-radius: 20px;
+}
+
+#sair-button {
+    -fx-background-color: white;
+    -fx-border-color: black;
+    -fx-border-width: 3px;
+    -fx-pref-width: 200px;
+    -fx-pref-height: 50px;
+    -fx-alignment: center;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: black;
+    -fx-background-radius: 15px;
+    -fx-border-radius: 10px;
+    -fx-effect: dropshadow(gaussian, black, 5, 0, 0, 2);
+}
+
+#curupira-image: hover{
+-fx-background-color: silver;}
+
+#saci-image:hover{
+-fx-background-color: silver;}
+
+#boitata-image: hover{
+-fx-background-color: silver;}
+
+#sair-button:hover {
+    -fx-background-color: lightblue;
+}
+
+/* Estilos para a Alert Box com ID "alert-dialog" */
+#alert-dialog {
+    -fx-background-color: rgba(34, 34, 34, 0.9); /* Cor de fundo da Alert Box */
+    -fx-border-color: #ff4500; /* Cor da borda (laranja fogo) */
+    -fx-border-width: 2px; /* Largura da borda */
+    -fx-padding: 20px; /* Espaçamento interno */
+    -fx-font-family: 'Arial'; /* Fonte da Alert Box */
+    -fx-font-size: 14px; /* Tamanho da fonte */
+    -fx-text-fill: white; /* Cor do texto */
+}
+
+#alert-dialog .header-panel {
+    -fx-background-color: rgba(255, 69, 0, 0.8); /* Cor de fundo do cabeçalho */
+    -fx-text-fill: white; /* Cor do texto no cabeçalho */
+}
+
+#alert-dialog .content {
+    -fx-text-fill: white; /* Cor do texto no conteúdo */
+}
+
+#alert-dialog .button {
+    -fx-background-color: #ff4500; /* Cor de fundo do botão */
+    -fx-text-fill: white; /* Cor do texto do botão */
+    -fx-padding: 10px; /* Espaçamento interno do botão */
+    -fx-font-weight: bold; /* Negrito no texto do botão */
+}
+
+#alert-dialog .button:hover {
+    -fx-background-color: #ff6347; /* Cor do botão ao passar o mouse */
+}
