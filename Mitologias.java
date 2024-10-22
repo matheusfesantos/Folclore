@@ -61,6 +61,9 @@ public class Mitologias extends Application {
 
         saciContainer.setOnMouseClicked(e -> {
             Stage saciStage = new Stage();
+            Saci saci = new Saci();
+            saci.start(saciStage);
+            primaryStage.close();
         });
 
         Image boitataImage = new Image("file:C:/Users/matheus.fgs/Desktop/FOLCLORE/Imagens/Personagens/Boitata.gif");
@@ -75,6 +78,9 @@ public class Mitologias extends Application {
 
         boitataContainer.setOnMouseClicked(e -> {
             Stage boitataStage = new Stage();
+            Boitata boitata = new Boitata();
+            boitata.start(boitataStage);
+            primaryStage.close();
         });
 
         vbox.getChildren().addAll(curupiraContainer, saciContainer, boitataContainer);

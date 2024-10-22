@@ -14,6 +14,20 @@
     -fx-text-fill: brown;
 }
 
+#titulo-label-boitata{
+    -fx-font-weight: bold;
+    -fx-text-transform: uppercase;
+    -fx-font-size: 60px;
+    -fx-text-fill: green;
+}
+
+#titulo-label-saci{
+    -fx-font-weight: bold;
+    -fx-text-transform: uppercase;
+    -fx-font-size: 60px;
+    -fx-text-fill: red;
+}
+
 #sair-button {
     -fx-background-color: white;
     -fx-border-color: black;
