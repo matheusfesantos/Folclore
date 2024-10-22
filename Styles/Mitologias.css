@@ -1,14 +1,26 @@
 #titulo-label{
-    -fx-text-fill: white;
-    -fx-font-weight: bold;
-}
-
-#curupira-image, #saci-image, #boitata-image {
     -fx-background-color: rgba(255, 255, 255, 0.8);
     -fx-background-radius: 20px;
     -fx-border-color: black;
     -fx-border-width: 3px;
     -fx-border-radius: 20px;
+    -fx-text-fill: black;
+    -fx-font-weight: bold;
+    -fx-font-size: 25px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.0, 0, 0);
+}
+
+#curupira-image, #saci-image, #boitata-image, #iara-image {
+    -fx-background-color: rgba(255, 255, 255, 0.8);
+    -fx-background-radius: 20px;
+    -fx-border-color: black;
+    -fx-border-width: 3px;
+    -fx-border-radius: 20px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.0, 0, 0);
+}
+
+#scroll-pane > #viewport {
+   -fx-background-color: transparent;
 }
 
 #sair-button {
@@ -26,46 +38,52 @@
     -fx-effect: dropshadow(gaussian, black, 5, 0, 0, 2);
 }
 
-#curupira-image: hover{
--fx-background-color: silver;}
+#curupira-image:hover {
+    -fx-background-color: silver;
+}
 
-#saci-image:hover{
--fx-background-color: silver;}
+#saci-image:hover {
+    -fx-background-color: silver;
+}
 
-#boitata-image: hover{
--fx-background-color: silver;}
+#boitata-image:hover {
+    -fx-background-color: silver;
+}
+
+#iara-image:hover {
+    -fx-background-color: silver;
+}
 
 #sair-button:hover {
     -fx-background-color: lightblue;
 }
 
-/* Estilos para a Alert Box com ID "alert-dialog" */
 #alert-dialog {
-    -fx-background-color: rgba(34, 34, 34, 0.9); /* Cor de fundo da Alert Box */
-    -fx-border-color: #ff4500; /* Cor da borda (laranja fogo) */
-    -fx-border-width: 2px; /* Largura da borda */
-    -fx-padding: 20px; /* Espaçamento interno */
-    -fx-font-family: 'Arial'; /* Fonte da Alert Box */
-    -fx-font-size: 14px; /* Tamanho da fonte */
-    -fx-text-fill: white; /* Cor do texto */
+    -fx-background-color: rgba(34, 34, 34, 0.9);
+    -fx-border-color: #ff4500;
+    -fx-border-width: 2px;
+    -fx-padding: 20px;
+    -fx-font-family: 'Arial';
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
 }
 
 #alert-dialog .header-panel {
-    -fx-background-color: rgba(255, 69, 0, 0.8); /* Cor de fundo do cabeçalho */
-    -fx-text-fill: white; /* Cor do texto no cabeçalho */
+    -fx-background-color: rgba(255, 69, 0, 0.8);
+    -fx-text-fill: white;
 }
 
 #alert-dialog .content {
-    -fx-text-fill: white; /* Cor do texto no conteúdo */
+    -fx-text-fill: white;
 }
 
 #alert-dialog .button {
-    -fx-background-color: #ff4500; /* Cor de fundo do botão */
-    -fx-text-fill: white; /* Cor do texto do botão */
-    -fx-padding: 10px; /* Espaçamento interno do botão */
-    -fx-font-weight: bold; /* Negrito no texto do botão */
+    -fx-background-color: #ff4500;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-font-weight: bold;
 }
 
 #alert-dialog .button:hover {
-    -fx-background-color: #ff6347; /* Cor do botão ao passar o mouse */
+    -fx-background-color: #ff6347;
 }
